@@ -1209,6 +1209,7 @@
     <Folder Include="tmp\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\index.html" />
     <Content Include="Main\Include\abstract.h" />
     <Content Include="Main\Include\asdl.h" />
     <Content Include="Main\Include\ast.h" />
