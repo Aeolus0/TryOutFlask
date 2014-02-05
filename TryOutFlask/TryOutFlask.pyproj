@@ -24,8 +24,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\forms.py" />
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
+    <Compile Include="config.py" />
     <Compile Include="Main\Lib\abc.py" />
     <Compile Include="Main\Lib\codecs.py" />
     <Compile Include="Main\Lib\copy_reg.py" />
@@ -1211,6 +1213,7 @@
   <ItemGroup>
     <Content Include="app\templates\index.html" />
     <Content Include="app\templates\base.html" />
+    <Content Include="app\templates\login.html" />
     <Content Include="Main\Include\abstract.h" />
     <Content Include="Main\Include\asdl.h" />
     <Content Include="Main\Include\ast.h" />
