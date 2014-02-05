@@ -1,0 +1,16 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{title}} - TryOutFlask</title>
+        {% else %}
+        <title>TryOutFlask</title>
+        {% endif %}
+    </head>
+
+<body>
+    <div class ="navbar"><a href="/index.html">Home</a></div>
+    <hr />
+    {% block content%}{% endblock %}
+
+</body>
+</html>
